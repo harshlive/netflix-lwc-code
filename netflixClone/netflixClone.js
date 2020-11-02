@@ -1,9 +1,10 @@
 import { LightningElement, track } from "lwc";
+import Netfix_Movie_API from "@salesforce/label/c.Netfix_Movie_API";
 
 export default class NetflixClone extends LightningElement {
   @track BASE_URL = "https://api.themoviedb.org/3";
   @track BASE_IMAGE_URL = "https://image.tmdb.org/t/p/original";
-  @track API_KEY = "c5cc2a4022dd9be9c515ecdc0cb4a5a6";
+  @track API_KEY = Netfix_Movie_API;
   @track bannerImage;
   @track bannerTitle;
   @track bannerOverview;
