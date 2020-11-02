@@ -8,4 +8,5 @@ Add 4 CSP Trusted Sites
 
 Get TMDB API Key from https://developers.themoviedb.org/3 and set as custom label with Name = 'Netfix_Movie_API'
 
-![Screenshot](Screenshot 2020-11-03 at 12.54.34 AM.png)
+![alt Screenshot](https://github.com/harshlive/netflix-lwc-code/blob/main/Screenshot 2020-11-03 at 12.54.34 AM.png?raw=true)
+
