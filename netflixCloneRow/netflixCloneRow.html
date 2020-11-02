@@ -1,0 +1,15 @@
+<template>
+  <div class="row">
+    <h2 class="title">{title}</h2>
+    <div class="posters">
+      <template for:each={resp} for:item="movie">
+        <img
+          key={movie.id}
+          class={movie.class}
+          src={movie.backdrop_path}
+          alt={movie.name}
+        />
+      </template>
+    </div>
+  </div>
+</template>

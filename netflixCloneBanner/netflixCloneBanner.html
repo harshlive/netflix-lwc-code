@@ -1,0 +1,23 @@
+<template>
+  <!-- <header
+      style={{
+        backgroundSize: "cover",
+        backgroundImage: `url(${baseUrl}${movie?.backdrop_path})`,
+        backgroundPosition: "center center",
+      }}
+      class="banner"
+    > -->
+  <template if:true={headerStyle}>
+    <header class="header banner" style={headerStyle}>
+      <div class="contents">
+        <h1 class="title">{bannerTitle}</h1>
+        <div class="buttons">
+          <button class="button">Play</button>
+          <button class="button">My List</button>
+          <h1 class="description">{bannerOverview}</h1>
+        </div>
+      </div>
+      <div class="fadeBottom"></div>
+    </header>
+  </template>
+</template>

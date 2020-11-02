@@ -1,0 +1,17 @@
+<template>
+  <c-netflix-clone-nav></c-netflix-clone-nav>
+  <template if:true={bannerImage}>
+    <c-netflix-clone-banner
+      banner-image={bannerImage}
+      banner-title={bannerTitle}
+      banner-overview={bannerOverview}
+    ></c-netflix-clone-banner>
+  </template>
+  <template for:each={requests} for:item="req">
+    <c-netflix-clone-row
+      title={req.key}
+      fetch-url={req.value}
+      key={req.key}
+    ></c-netflix-clone-row>
+  </template>
+</template>
