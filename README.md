@@ -8,6 +8,6 @@ Add 4 CSP Trusted Sites
 
 Get TMDB API Key from https://developers.themoviedb.org/3 and set as custom label with Name = 'Netfix_Movie_API'
 
-![Alt Screenshot](/relative/path/to/Screenshot 2020-11-03 at 12.54.34 AM.png?raw=true "Optional Title")
+![Alt Screenshot](/Screenshot%202020-11-03%20at%2012.54.34%20AM.png?raw=true "Optional Title")
 
 
