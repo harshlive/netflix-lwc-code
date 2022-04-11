@@ -1,5 +1,7 @@
 # netflix-lwc-code
 
+https://netflix-clone-developer-edition.ap16.force.com/s/
+
 Add 4 CSP Trusted Sites 
 1. https://image.tmdb.org	
 2. https://api.themoviedb.org	
