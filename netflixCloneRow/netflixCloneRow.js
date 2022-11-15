@@ -2,7 +2,7 @@ import { LightningElement, track, api } from "lwc";
 
 export default class NetflixCloneRow extends LightningElement {
   @api title;
-  @api fetchUrl;
+  @api fetchUrl; 
   @track resp;
   @track BASE_URL = "https://image.tmdb.org/t/p/original";
   connectedCallback() {
