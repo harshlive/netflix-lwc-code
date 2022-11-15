@@ -1,4 +1,4 @@
-import { LightningElement, track } from "lwc";
+import { LightningElement, track } from "lwc"; 
 import Netfix_Movie_API from "@salesforce/label/c.Netfix_Movie_API";
 
 export default class NetflixClone extends LightningElement {
