@@ -8,7 +8,7 @@ export default class NetflixCloneNav extends LightningElement {
         this.navCSS = "nav";
       } else {
         this.navCSS = "nav navblack";
-      }
+      } 
     });
   }
 }
